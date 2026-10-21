@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+    content="Young Tech builds modern, responsive websites using HTML, CSS and JavaScript.">
+
+  <title>Young Tech | Frontend Developer</title>
+
+  <link rel="stylesheet" href="portfolio.css">
+  <script src="portfolio.js" defer></script>
+</head>
+<body>
+
+  <header class="header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#home" class="logo">&lt;/&gt; Young <span>Tech</span></a>
+
+      <button class="menu-toggle" id="menuToggle"
+        aria-label="Open navigation menu"
+        aria-expanded="false" aria-controls="navLinks">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <a href="#contact" class="btn btn-small nav-cta">Hire Me</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">HELLO, WELCOME TO MY PORTFOLIO</p>
+
+        <h1>I'm Young Tech,<br>
+          <span class="gradient-text">Frontend Developer</span>
+        </h1>
+
+        <p class="hero-description">
+          I build modern, responsive and user-friendly websites
+          using HTML, CSS and JavaScript. I turn ideas into
+          beautiful web experiences.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#contact" class="btn">Let's Work Together</a>
+          <a href="#projects" class="btn btn-outline">View My Work</a>
+        </div>
+
+        <p class="location">📍 Ilorin, Kwara State, Nigeria</p>
+      </div>
+
+      <div class="hero-card">
+        <div class="code-window">
+          <div class="window-dots"><i></i><i></i><i></i></div>
+          <p class="code-purple">const developer = {</p>
+          <p>&nbsp; name: <span class="code-green">"Young Tech"</span>,</p>
+          <p>&nbsp; skills: [</p>
+          <p>&nbsp;&nbsp; <span class="code-green">"HTML"</span>,</p>
+          <p>&nbsp;&nbsp; <span class="code-green">"CSS"</span>,</p>
+          <p>&nbsp;&nbsp; <span class="code-green">"JavaScript"</span></p>
+          <p>&nbsp; ],</p>
+          <p>&nbsp; readyToBuild: <span class="code-orange">true</span></p>
+          <p class="code-purple">};</p>
+          <div class="code-footer">Building the web, one project at a time.</div>
+        </div>
+        <div class="floating-tag tag-one">HTML5</div>
+        <div class="floating-tag tag-two">CSS3</div>
+        <div class="floating-tag tag-three">JS</div>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>About <span class="gradient-text">Me</span></h2>
+      </div>
+
+      <div class="about-card">
+        <div class="about-mark">&lt;/&gt;</div>
+        <div>
+          <h3>I'm learning, building and growing.</h3>
+          <p>
+            I'm an aspiring frontend developer based in Ilorin,
+            Nigeria. I enjoy creating websites that look good
+            and work properly on different screen sizes.
+          </p>
+          <p>
+            I use HTML to structure pages, CSS to style them,
+            and JavaScript to make them interactive. I'm
+            building projects to develop my skills and help
+            businesses establish their online presence.
+          </p>
+          <a href="#contact" class="text-link">Have a project? Let's talk →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">WHAT I WORK WITH</p>
+        <h2>My <span class="gradient-text">Skills</span></h2>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <div class="skill-icon html-icon">5</div>
+          <h3>HTML5</h3>
+          <p>Building clear, accessible webpage structures.</p>
+          <div class="skill-track"><span style="width: 80%"></span></div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon css-icon">3</div>
+          <h3>CSS3</h3>
+          <p>Designing attractive and responsive layouts.</p>
+          <div class="skill-track"><span style="width: 70%"></span></div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon js-icon">JS</div>
+          <h3>JavaScript</h3>
+          <p>Adding interactivity and useful functionality.</p>
+          <div class="skill-track"><span style="width: 45%"></span></div>
+        </article>
+      </div>
+      <p class="small-note">
+        These skill bars are illustrative. Update them as your
+        experience grows.
+      </p>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">WHAT I'M BUILDING</p>
+        <h2>My <span class="gradient-text">Projects</span></h2>
+        <p>Sample project ideas you can build and replace with your own work.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-preview preview-one">
+            <span class="preview-symbol">↗</span>
+            <span>BUSINESS WEBSITE</span>
+          </div>
+          <div class="project-info">
+            <h3>Business Landing Page</h3>
+            <p>A clean website for a local business or creative agency.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+            <a href="#contact" class="text-link">Ask about this project →</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-preview preview-two">
+            <span class="preview-symbol">✓</span>
+            <span>TASK MANAGER</span>
+          </div>
+          <div class="project-info">
+            <h3>Task Manager</h3>
+            <p>A simple app for adding tasks and marking them complete.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+            <a href="#contact" class="text-link">Ask about this project →</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-preview preview-three">
+            <span class="preview-symbol">🛍</span>
+            <span>ONLINE STORE</span>
+          </div>
+          <div class="project-info">
+            <h3>E-commerce Store</h3>
+            <p>A product showcase with an interactive shopping basket.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+            <a href="#contact" class="text-link">Ask about this project →</a>
+          </div>
+        </article>
+      </div>
+
+      <p class="small-note">
+        These are demonstration cards, not completed client projects.
+        Replace them with working demos when you build them.
+      </p>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">LET'S CONNECT</p>
+          <h2>Have a project in <span class="gradient-text">mind?</span></h2>
+          <p>Tell me what you need. I'll be happy to hear from you.</p>
+        </div>
+
+        <div class="contact-layout">
+          <div class="contact-details">
+            <h3>Contact Young Tech</h3>
+            <p>Use the form to enquire about a website or discuss a project.</p>
+
+            <div class="contact-item">
+              <span>✉</span>
+              <div>
+                <strong>Mobile Number</strong>
+                <a href="tel:+2349133819307">
+                  +234 9133819307
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <span>⌖</span>
+              <div>
+                <strong>Location</strong>
+                <p>Ilorin, Kwara State, Nigeria</p>
+              </div>
+            </div>
+          </div>
+
+          <form id="contactForm" class="contact-form"
+            action="https://formsubmit.co/ajax/babatundeayo609@gmail.com"
+            method="POST">
+
+            <input type="hidden" name="_subject"
+              value="New customer message from Young Tech Portfolio">
+            <input type="hidden" name="_template" value="table">
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name"
+                  placeholder="Enter your name"
+                  minlength="2" maxlength="100" required>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email"
+                  placeholder="you@example.com"
+                  maxlength="254" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Your Message *</label>
+              <textarea id="message" name="message"
+                rows="5" minlength="10" maxlength="5000"
+                placeholder="Tell me about your project..."
+                required></textarea>
+            </div>
+
+            <input type="text" name="_honey" class="honeypot"
+              tabindex="-1" autocomplete="off" aria-hidden="true">
+
+            <button type="submit" class="btn submit-btn" id="submitBtn">
+              <span id="buttonText">Send Message ↗</span>
+            </button>
+
+            <p id="formStatus" class="form-status"
+              role="status" aria-live="polite"></p>
+
+            <p class="form-footnote">
+              Your details will be used to respond to your enquiry.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#home" class="logo">Young <span>Tech</span></a>
+      <p>© <span id="year"></span> Young Tech. Built with HTML, CSS & JS.</p>
+      <a href="#home" class="text-link">Back to top ↑</a>
+    </div>
+  </footer>
+
+</body>
+</html>
